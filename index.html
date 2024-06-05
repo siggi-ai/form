@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Übungsformular</title>
+  </head>
+  <body>
+    <form action="GET">
+      <fieldset>
+        <legend>Pflichtangaben</legend>
+        <label>
+          E-Mail-Adresse:
+          <input type="email" />
+        </label>
+        <label>
+          Passwort:
+          <input type="password" />
+        </label>
+        <label>
+          Passwort wiederholen:
+          <input type="password" placeholder="Passwort wiederholen"/>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Freiwillige Angaben</legend>
+        <fieldset>
+          <legend>Anrede (Frau, Herr, Divers)</legend>
+          <label>
+            Frau
+            <input type="radio" name="Anrede" value="Frau" />
+          </label>
+          <label>
+            Herr
+            <input type="radio" name="Anrede" value="Herr" />
+          </label>
+          Divers
+          <label>
+            <input type="radio" name="Anrede" value="Divers" />
+          </label>
+        </fieldset>
+
+        <label>
+          Vorname:
+          <input type="text" />
+        </label>
+
+        <label>
+          Nachname:
+          <input type="text" />
+        </label>
+
+        <label>
+          Adresse:
+          <input type="text" />
+        </label>
+
+        <label>
+          PLZ:
+          <input type="number" />
+        </label>
+
+        <label>
+          Ort:
+          <input type="text" />
+        </label>
+
+        <label>
+          Staat:
+          <input type="text" />
+        </label>
+
+        <label>
+          Geburtsdatum:
+          <input type="date" />
+        </label>
+
+        <label>
+          Lieblingsfarbe:
+          <input type="color" />
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Reiseziele</legend>
+        <select name="" id="" multiple>
+          <option value="">Korea</option>
+          <option value="">Japan</option>
+          <option value="">USA</option>
+          <option value="">Portugal</option>
+          <option value="">Spanien</option>
+          <option value="">Frankreich</option>
+          <option value="">Großbrittanien</option>
+          <option value="">Island</option>
+          <option value="">Kanada/option></option>
+          <option value="">Australien</option>
+          <option value="">Indien</option>
+          <option value="">Vietnam</option>
+          <option value="">Phillipinen</option>
+          <option value="">Afrika</option>
+          <option value="">Brasilien</option>
+          <option value="">Venezuela</option>
+          <option value="">Mexiko</option>
+          <option value="">Dänemark</option>
+          <option value="">Finnland</option>
+          <option value="">Schweden</option>
+          <option value="">Norwegen</option>
+        </select>
+      </fieldset>
+
+      <label for="">
+        Gib' Deinen persönlichen Text an uns hier ein!
+        <textarea name="" id=""></textarea>
+      </label>
+      
+        <input type="submit" value="send" />
+
+    </form>
+  </body>
+</html>
